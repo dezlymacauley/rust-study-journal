@@ -1,3 +1,5 @@
+use std::io::{BufReader, BufRead};
+
 // NOTE: How to create a library package in rust
 
 // Method 1: `cargo init --lib .`
@@ -8,17 +10,11 @@
 // Method 2: `cargo new --lib name-of-your-new-folder`
 // This will create a new project folder
 
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
+pub fn read_stdin() -> String {
+    let stdin = std::io::stdin();
+    let mut reader = BufReader::new(stdin.lock());
+    let mut line = String::new();
+    reader.read_line(&mut line).expect("Failed to read input line");
+    line.trim().to_string()
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
