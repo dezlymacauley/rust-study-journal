@@ -15,3 +15,5 @@ Attempt the File reader application from the `Function Basics` section
 
 Go over `associated functions and constructors` from the section,
 `Using structured data`
+
+Look up `Idiomatic Rust`

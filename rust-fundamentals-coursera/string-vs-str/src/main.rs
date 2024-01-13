@@ -8,7 +8,6 @@ fn print_str(s: &str) {
     new_string.push_str("adding more to my last message");
 }
 
-
 // NOTE: This is known as a `String type`
 fn print_string(s: String) {
     println!("{}", s);
