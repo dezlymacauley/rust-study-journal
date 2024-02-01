@@ -15,7 +15,9 @@
 ##### 1.3 Hello, Cargo!
 
 ##### 3. Common Programming Concepts 
-##### 3.1 Variables and Mutability (Currently Studying)
+##### 3.1 Variables and Mutability 
+##### 3.2 Data Types (Currently Studying)
+##### 3.4 Comments
 
 ---
 
