@@ -2,18 +2,22 @@
 
 ### Current progress 
 
+---
+
 ### Completed
 
 ##### The Rust Programming Language
 ##### Foreword
+
 ##### Introduction
 ##### 1. Introduction ##### 1.1 Installation
 ##### 1.2 Hello, World!
 ##### 1.3 Hello, Cargo!
 
-##### 3. Common Programming Concepts (Currently Studying)
+##### 3. Common Programming Concepts 
+##### 3.1 Variables and Mutability (Currently Studying)
 
-
+---
 
 "The Book"
 
@@ -126,6 +130,12 @@ and they can run it even without having Rust installed.
 #### How to use cargo (Rust's package manager and build system)
 
 For running more complex Rust programs:
+
+WAIT: First make sure that your project has a .gitignore file
+
+https://github.com/github/gitignore/blob/main/Rust.gitignore
+
+
 
 `cargo new name-of-project`
 
