@@ -16,8 +16,12 @@
 
 ##### 3. Common Programming Concepts 
 ##### 3.1 Variables and Mutability 
-##### 3.2 Data Types (Currently Studying)
+##### 3.2 Data Types 
+##### 3.3 Functions
 ##### 3.4 Comments
+
+##### 4. Ownership
+##### 4.1 what is Ownership?
 
 ---
 
