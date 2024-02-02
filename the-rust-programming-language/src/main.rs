@@ -1,32 +1,25 @@
-// NOTE: Functions
+// NOTE: Statement and expressions
+// Statements: Instructions that perform some action and do not return a value.
+// Expressions: Evaluate to a resultant value.
+// Expressions DO NOT end with a semicolon
 
 fn main() {
 
-    // In Rust, you can use a function before it is declared.
-    say_hello("Dezly");
-
-    add_two_numbers(10, 18);
+    println!("{}", triple_plus_five(2));
 
 }
 
-// This is how to declare a function
-fn say_hello(_username: &str) {
-    println!("Hello {}", _username);
+// NOTE: Functions with a return value;
+// This function returns a variable type of i32
+
+fn triple_plus_five(_number: i32) -> i32 {
+    // NOTE: This syntax is considered best practice in Rust
+    (_number * 3) + 5 // This is an expression. Make sure there is no ; after.
+    // In Rust the last expresion in a block is automatically returned.
+
+    // NOTE: This syntax can also be written like this
+    // Just make sure that if you do use the return keyword, you add the ;
+    // return (_number * 3) + 5;
+    // Not a fan of this syntax;
+    
 }
-
-fn add_two_numbers(_num1: i32, _num2: i32) {
-    let total: i32 = _num1 + _num2;
-    println!("{_num1} + {_num2} = {}", total);
-}
-
-// NOTE: What's the difference between parameters and arguements?
-
-// When you are declaring a function, 
-// the values in the bracket are called parameters.
-// Think of parameters as a template,
-// for what type of values a function will accept.
-
-// When a function is used, the values that are submitted into the brackets,
-// are called arguements. 
-// Arguments are the actual input that a function requires,
-// to perform an action.
