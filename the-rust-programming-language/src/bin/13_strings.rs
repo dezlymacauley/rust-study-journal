@@ -29,13 +29,19 @@ String:
 
 fn main() {
 
-    // This is a String
-    let my_string: String = String::new();
+    // This is a how to declare an empty String
+    let empty_string: String = String::new();
+    let empty_string_slice: &str = "";
 
     // This is a String Slice
     let my_message: &str = "Hey it's Goku";
    
     // NOTE: How to convert a string slice to a Slice
-    let converted_message: String = my_string.to_string();
+    let converted_message: String = my_message.to_string();
+
+    // NOTE: How to add to a string
+    let mut hero_name: String = String::from("Super");
+    hero_name.push_str("man");
+    println!("{hero_name}");
 
 }
