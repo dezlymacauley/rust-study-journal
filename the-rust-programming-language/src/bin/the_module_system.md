@@ -33,6 +33,9 @@ VERY IMPORTANT:
 A package can have multiple binary crates,
 by placing files in the src/bin directory: each file will be a separate binary crate.
 
+To run a specific file 
+`cargo run --bin the-name-of-the-file-excluding-the-rs-part`
+E.g. `cargo run --bin 6_functions`
 
 
 
